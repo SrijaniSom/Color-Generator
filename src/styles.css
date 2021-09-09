@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+.top
+{
+    display: flex;
+    margin-top: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+.heading
+{
+   color:indigo;
+   font-size: 20px;
+   font-weight: bolder;
+   letter-spacing: 3px;
+   padding-right: 1rem;
+}
+input
+{
+    padding:3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border:indigo 2px solid;
+    border-radius: 4px;
+}
+.subBtn
+{
+    margin-left: 1rem;
+    padding:3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: indigo;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    font-size: 18px;
+    border:gray 2px solid;
+    border-radius: 4px;
+    background-color: white;
+}
+.subBtn:hover
+{
+    background-color: indigo;
+    color: white;
+    cursor: pointer;
+}
+.single
+{
+    height:6rem;
+    border-radius: 6px;
+    padding:1rem;
+    
+}
+.Colorset
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 3rem;
+    column-gap: 2rem;
+    row-gap: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+}
+.weightSec,.hexSec
+{
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    color: indigo;
+    padding-bottom: 0.25rem;
+
+}
+.error
+{
+    border:red 3px solid;
+    padding:3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    border-radius: 4px;
+}
